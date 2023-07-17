@@ -24,3 +24,24 @@ Output:
 -------
 CODE:
 -------
+arr=list(map(int, input().split()))
+even=[]
+odd=[]
+for i in range(len(arr)):
+    if i%2==0:
+        even.append(arr[i])
+    else:
+        odd.append(arr[i])
+even.sort()
+odd.sort()
+print(even[len(even)-2]+odd[len(odd)-2])
+
+---------
+INPUT:
+---------
+3 2 1 7 5 4
+
+-------
+OUTPUT:
+-------
+7
