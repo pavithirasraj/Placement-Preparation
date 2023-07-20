@@ -1,0 +1,19 @@
+    PYTHON:
+lst=list(map(int,input().split()))
+i=int(input())
+if i in lst:
+    print("Element found!!")
+else:
+    print("Element Not found!!")
+
+Input:
+90 80 60
+78
+ Output:
+Element Not found!!
+
+Input:
+90 80 60
+80
+Output:
+Element found!!
