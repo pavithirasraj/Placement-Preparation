@@ -1,0 +1,24 @@
+    PYTHON:
+n=int(input())
+lst=list(map(int,input().split()))
+i=int(input())
+if i in lst:
+    print("The element already exists")
+else:
+    print("The element does not exist")
+
+
+Input:
+6
+90 80 70 60 50 40 
+60
+
+Output:
+The element already exists
+
+Input:
+6
+90 80 70 60 50 40
+35
+Output:
+The element does not exist
