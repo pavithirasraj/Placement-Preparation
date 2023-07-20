@@ -1,0 +1,55 @@
+1. What is an array?
+--------------------
+An array is a collection of items of same data type stored at contiguous memory locations. 
+The elements in an array are accessed using their index, which usually starts from 0 (zero) for the first element and increments by one for each subsequent element.
+        For example, if you have an array of integers:
+int[] numbers = {10, 20, 30, 40, 50};
+The first element 10 can be accessed using numbers[0], the second element 20 using numbers[1], and so on.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2. What are the different types of array?
+----------------------------------------
+Arrays are classified into two types based on their dimensions : Single-dimensional and multi-dimensional. 
+Logically, a single-dimensional array represents a linear collection of data, A two-dimensional array represents a mathematical matrix.
+Similarly, a Multidimensional array has multiple dimensions.
+        Syntax for Declaration of Single Dimensional Array💯:
+data_type array_name[array_size];
+//Example
+int evenNumbers[5];
+        Syntax for Declaration of Multi-Dimensional Array:
+data_type array_name[sizeof_1st_dimension][sizeof_2nd_dimension].....[sizeof_nth_dimension];
+//Example
+int array[5][4][6][7];
+        Syntax and Declaration of Two Dimensional Array:
+data_type array_name[sizeof_1st_dimension][sizeof_2nd_dimension];
+//Example
+int array2d[5][10];
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3. How do you declare an array in different programming languages?
+------------------------------------------------------------------
+    Python (List):
+# Using square brackets to create a list
+numbers = [10, 20, 30, 40, 50]
+
+    Java:
+// Using square brackets after the data type and specifying the size in square brackets
+int[] numbers = {10, 20, 30, 40, 50};
+
+    C++:
+// Using square brackets after the data type and specifying the size in square brackets
+int numbers[] = {10, 20, 30, 40, 50};
+
+    JavaScript:
+// Using square brackets to create an array
+let numbers = [10, 20, 30, 40, 50];
+
+    PHP:
+// Using the array() constructor or short syntax []
+$numbers = array(10, 20, 30, 40, 50);
+// or
+$numbers = [10, 20, 30, 40, 50];
+
+    C
+// Example: Declaring an array of integers with 5 elements
+int numbers[5] = {10, 20, 30, 40, 50};
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
