@@ -1,0 +1,8 @@
+lst=[1,2,3,4,5]
+res=sum(lst)
+length=len(lst)
+average=res/length
+print("Average:",average)
+
+Output:
+Average: 3.0
