@@ -1,1 +1,10 @@
      PYTHON:
+n=int(input())
+lst=list(map(int,input().split()))
+ele=lst[2]
+print(ele)
+
+Output:
+5
+1 2 3 4 5
+3
