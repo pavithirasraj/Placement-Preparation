@@ -1,0 +1,8 @@
+       PYTHON:
+lst = [10, 20, 30, 40, 50]
+# Using a for loop
+for number in lst:
+    print(number, end=" ")
+
+Output:
+10 20 30 40 50
