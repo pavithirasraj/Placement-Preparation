@@ -1,0 +1,23 @@
+     PYTHON
+#Using sort() Method:
+
+lst=list(map(int,input().split()))
+lst.sort()
+print(lst)
+
+Input:
+55 88 11 66 33 44 
+Output:
+[11, 33, 44, 55, 66, 88]
+
+
+#Using sorted method:
+
+lst=list(map(int,input().split()))
+temp=sorted(lst)
+print(temp)
+
+Input:
+55 88 11 66 33 44 
+Output:
+[11, 33, 44, 55, 66, 88]
