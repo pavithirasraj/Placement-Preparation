@@ -1,0 +1,7 @@
+      PYTHON:
+lst=[89, 56, 99, 73, 29]
+maximum=max(lst)
+print(maximum)
+
+Output:
+99
