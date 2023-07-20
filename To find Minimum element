@@ -1,0 +1,7 @@
+       PYTHON:
+lst=[89, 56, 99, 73, 29]
+minimum=min(lst)
+print(minimum)
+
+Output:
+29
