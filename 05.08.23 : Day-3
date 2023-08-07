@@ -1,0 +1,29 @@
+1. Write a program to find the second largest element in an array.
+------
+CODE:
+------
+n=int(input())
+lst=list(map(int, input().split()))
+lst.sort()
+print(lst[n-2])
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2. Write a program to sort an array in ascending order using the bubble sort algorithm.
+------
+CODE:
+------
+lst=list(map(int,input().split()))
+for i in range(len(lst)):
+    for j in range(0,len(lst)-i-1):
+        if lst[j]>lst[j+1]:
+            t=lst[j]
+            lst[j]=lst[j+1]
+            lst[j+1]=t
+print(lst)            
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+3. Write a program to reverse a linked list.
+
+-------
+CODE:
+------
