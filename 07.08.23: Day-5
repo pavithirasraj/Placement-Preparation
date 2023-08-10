@@ -1,0 +1,78 @@
+1. Write a program to implement a queue data structure.
+------
+CODE:
+-----
+class Queue(list):
+    enqueue = list.append
+    def dequeue(self):
+        return self.pop(0) if not self.is_empty() else None
+    def is_empty(self):
+        return len(self) == 0
+queue = Queue()
+while True:
+    print("\n1. Enqueue\n2. Dequeue\n3. Exit")
+    choice = input("Your choice: ")
+    if choice == '1':
+        item = int(input("Enter the item to enqueue: "))
+        queue.enqueue(item)
+        print(f"{item} enqueued.")
+    elif choice == '2':
+        dequeued_item = queue.dequeue()
+        print(f"Dequeued item: {dequeued_item}" if dequeued_item is not None else "Queue is empty.")
+    elif choice == '3':
+        print("Exit")
+        break
+    else:
+        print("Invalid choice")
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2. Write a program to merge two sorted arrays into a single sorted array.
+------
+CODE:
+-----
+
+arr1=list(map(int,input().split()))
+arr2=list(map(int, input().split()))
+x=sorted(arr1+arr2)
+print(x)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3. Write a program to reverse a sentence without reversing the words.
+------
+CODE:
+------
+s=input("")
+w=s.split()
+r= ' '.join(w[::-1])
+print(r)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+4. Write a program to find the power of a number using recursion.
+-------
+CODE:
+------
+
+base=float(input(""))
+e=int(input(""))
+res=base**e
+print(res)
+-------------
+def power(a,b):
+  if b==0:
+    return 1
+  return (a*power(a,b-1))
+a=int(input())
+b=int(input())
+k=power(a,b)
+print(k)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+5. Write a program to find the number of occurrences of a given element in an array.
+------
+CODE:
+------
+from collections import Counter
+s=input()
+c=Counter(s)
+for i,j in c.items():
+  print(i,":",j)
+  -----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
